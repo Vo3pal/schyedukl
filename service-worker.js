@@ -1,7 +1,7 @@
 const CACHE_NAME = 'daily-schedule-cache-v1';
 const urlsToCache = [
   './',
-  './schedule.html',
+  './index.html',
   './manifest.json',
   'https://cdn.tailwindcss.com',
   'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
@@ -44,3 +44,4 @@ self.addEventListener('activate', (event) => {
     })
   );
 });
+
