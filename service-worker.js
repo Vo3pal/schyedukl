@@ -3,7 +3,6 @@ const urlsToCache = [
   './',
   './index.html',
   './manifest.json',
-  'https://cdn.tailwindcss.com',
   'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
   'https://fonts.gstatic.com/s/inter/v13/UcC73FwrK43ryN03.woff2'
 ];
@@ -44,4 +43,3 @@ self.addEventListener('activate', (event) => {
     })
   );
 });
-
